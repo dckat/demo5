@@ -43,4 +43,24 @@
         <servlet-name>number</servlet-name>
         <url-pattern>/number</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>city</servlet-name>
+        <servlet-class>org.example.demo5.quiz.CityServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>city</servlet-name>
+        <url-pattern>/city</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>tour</servlet-name>
+        <servlet-class>org.example.demo5.quiz.CityServlet2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>tour</servlet-name>
+        <url-pattern>/tour</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -5,9 +5,14 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "web01" %>
 </h1>
 <br/>
+<a href="city">city</a>
+<a href="city.jsp">tour</a>
+<a href="game.jsp">game</a>
+<hr>
+<% /*
 <a href="login.jsp">로그인 페이지로</a>
 <a href="number.jsp">숫자계산 페이지로</a>
 <a href="life">서블릿 생명주기 확인</a>
@@ -30,5 +35,6 @@
     tel 입력: <input name="tel" value="111"><br>
     <button type="submit">서버로 전송</button>
 </form>
+*/ %>
 </body>
 </html>
