@@ -11,9 +11,16 @@
     <title>Game Form</title>
     <script>
       function btnClick() {
-        let gameName = document.getElementById("gameName").value;
-        let gameType = document.getElementById("gameType").value;
-        location.href = "/game?gameName=" + gameName + "&gameType=" + gameType;
+          let gameName = document.getElementById("gameName").value;
+          let gameType = document.getElementById("gameType").value;
+
+          // 입력하지 않았을 경우 보내지 않기
+          if (gameName.length > 0 && gameType.length > 0) {
+              location.href = "/game?gameName=" + gameName + "&gameType=" + gameType;
+          }
+          else {
+              alert("입력이 완료되지 않았음. 입력을 해주세요.");
+          }
       }
     </script>
 </head>
