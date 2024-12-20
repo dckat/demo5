@@ -11,6 +11,7 @@
 <a href="login.jsp">로그인 페이지로</a>
 <a href="number.jsp">숫자계산 페이지로</a>
 <a href="life">서블릿 생명주기 확인</a>
+<a href="login2.jsp">로그인2 페이지로</a>
 <hr>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="hello-servlet2">Hello Servlet2</a>
