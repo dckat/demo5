@@ -19,9 +19,8 @@ public class LoginServlet2 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("doGet------------");
 
-        // get 방식은  tomcat의 web.xml 설정에 따라 결정됨
-        // web.xml에 utf-8로 설정함
-
+        // get 방식은 tomcat의 server.xml 설정에 따라 결정됨
+        // server.xml에 utf-8로 설정함
         String id = req.getParameter("id");
         String pw = req.getParameter("pw");
         System.out.println(id + " " + pw);
