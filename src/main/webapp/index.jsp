@@ -9,6 +9,7 @@
 </h1>
 <br/>
 <a href="status.jsp">상태정보</a>
+<a href="input.jsp">한글처리</a>
 <% /*
 <a href="city">city</a>
 <a href="city.jsp">tour</a>
