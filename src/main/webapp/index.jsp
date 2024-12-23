@@ -8,11 +8,12 @@
 <h1><%= "web01" %>
 </h1>
 <br/>
+<a href="status.jsp">상태정보</a>
+<% /*
 <a href="city">city</a>
 <a href="city.jsp">tour</a>
 <a href="game.jsp">game</a>
 <hr>
-<% /*
 <a href="login.jsp">로그인 페이지로</a>
 <a href="number.jsp">숫자계산 페이지로</a>
 <a href="life">서블릿 생명주기 확인</a>
