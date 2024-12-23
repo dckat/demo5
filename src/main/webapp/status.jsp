@@ -26,5 +26,26 @@
     <a href="cookie4.jsp">
       <button>쿠키 정보 얻기 (연습)</button>
     </a>
+<hr>
+    <a href="sessionSet.jsp">
+      <button>세션 설정하기</button>
+    </a>
+<br>
+    <a href="sessionGet.jsp">
+      <button>세션 값 출력하기</button>
+    </a>
+<br>
+    <a href="loginSession.jsp">
+        <button>로그인 후 loginId를 세션 설정</button>
+    </a>
+<br>
+    <a href="sessionCheck.jsp">
+        <button>세션 설정</button>
+    </a>
+<br>
+    <a href="sessionResult.jsp">
+        <button>세션 보기</button>
+    </a>
+<br>
 </body>
 </html>
