@@ -11,39 +11,39 @@
     <title>Title</title>
 </head>
 <body>
-    <a href="cookie1.jsp">
+    <a href="cookie/cookie1.jsp">
       <button>쿠키 브라우저에 만들기</button>
     </a>
 <br>
-    <a href="cookie2.jsp">
+    <a href="cookie/cookie2.jsp">
       <button>브라우저에서 쿠키 가지고 오기</button>
     </a>
 <br>
-    <a href="cookie3.jsp">
+    <a href="cookie/cookie3.jsp">
       <button>쿠키 만들어 저장하기 (연습)</button>
     </a>
 <br>
-    <a href="cookie4.jsp">
+    <a href="cookie/cookie4.jsp">
       <button>쿠키 정보 얻기 (연습)</button>
     </a>
 <hr>
-    <a href="sessionSet.jsp">
+    <a href="session/sessionSet.jsp">
       <button>세션 설정하기</button>
     </a>
 <br>
-    <a href="sessionGet.jsp">
+    <a href="session/sessionGet.jsp">
       <button>세션 값 출력하기</button>
     </a>
 <br>
-    <a href="loginSession.jsp">
+    <a href="session/loginSession.jsp">
         <button>로그인 후 loginId를 세션 설정</button>
     </a>
 <br>
-    <a href="sessionCheck.jsp">
+    <a href="session/sessionCheck.jsp">
         <button>세션 설정</button>
     </a>
 <br>
-    <a href="sessionResult.jsp">
+    <a href="session/sessionResult.jsp">
         <button>세션 보기</button>
     </a>
 <br>
