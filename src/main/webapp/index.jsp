@@ -8,8 +8,8 @@
 <h1><%= "web01" %>
 </h1>
 <br/>
-<a href="cart.jsp">장바구니</a>
-<a href="product.jsp">상품 목록</a>
+<a href="quiz/cart.jsp">장바구니</a>
+<a href="quiz/product.jsp">상품 목록</a>
 <% /*
 <a href="status.jsp">상태정보</a>
 <a href="input.jsp">한글처리</a>

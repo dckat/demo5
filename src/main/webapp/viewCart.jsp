@@ -21,6 +21,6 @@
             }
         }
     %>
-    <a href="cart.jsp">아이템 추가</a>
+    <a href="quiz/cart.jsp">아이템 추가</a>
 </body>
 </html>
